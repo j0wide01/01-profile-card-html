@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+body {
+    background: linear-gradient(135deg, #d4fc79 0%, #96e6a1 100%);
+    font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-card {
+    background: rgba(255, 255, 255, 0.95);
+    border: none;
+    border-radius: 20px;
+    max-width: 370px;
+    width: 100%;
+    padding: 2.5rem 2rem;
+    box-shadow: 0 8px 32px rgba(56, 176, 0, 0.18), 0 1.5px 6px rgba(0,0,0,0.08);
+    text-align: center;
+    transition: box-shadow 0.3s;
+}
+
+.profile-card:hover {
+    box-shadow: 0 12px 40px rgba(56, 176, 0, 0.25), 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.profile-card h1 {
+    font-size: 2.5rem;
+    margin-top: 1rem;
+    color: #14532d; /* dark green */
+}
+
+.profile-card h2 {
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
+    color: #38b000; /* light green */
+}
+
+.profile-card p {
+    font-size: 1.2rem;
+    line-height: 1.7;
+    margin: 1rem 0;
+}
+
+/* Style the profile image */
+.profile-card img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+    object-fit: cover;
+    box-shadow: 0 2px 8px rgba(56, 176, 0, 0.12);
+}
